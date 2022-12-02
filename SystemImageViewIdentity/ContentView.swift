@@ -83,6 +83,11 @@ struct HeaderView: View {
                         Image(systemName: "magnifyingglass")
                     }
                 }
+                Button {
+                    // Do nothing
+                } label: {
+                    Image(systemName: "trash")
+                }
             }
             if showSearchbar {
                 Searchbar(showSearchbar: $showSearchbar)
