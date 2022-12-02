@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var uuidSetting = UUIDSetting(true)
+    @State var uuidSetting = UUIDSetting(false)
     
     var body: some View {
         let _ = Self._printChanges()
